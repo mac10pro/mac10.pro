@@ -93,9 +93,12 @@ ul.posts {
 }
 
   .site .title a {
-    color: #a00;
     text-decoration: none;
-  }
+    color: #fff;
+    background: #b3b3b3;
+    font-size: 30px;
+    padding: 10px;
+}
 
   .site .title a:hover {
     color: black;
