@@ -6,8 +6,6 @@ image: "/images/door001.png"  # optional image
 excerpt: "A short summary of my post goes here."
 ---
 
-{{ page.title }}
-================
 
 <p class="meta"> 1000 - Something Random and Stuff</p>
 
