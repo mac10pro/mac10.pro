@@ -71,10 +71,14 @@ ul.posts {
     font-family: monospace;
     font-size: 10px;
 }
-ul.posts .post{
+ul.posts .post {
     margin: 1em 0 5em;
+    text-align: center;
 }
-
+.imgBlock,.imgBlock img{
+    margin:0 auto;
+    text-align:center
+}
 /*****************************************************************************/
 /*
 /* Site
