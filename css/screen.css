@@ -183,10 +183,10 @@ ul.posts .post{
     }
 
   #post img {
-    max-width: 42em;
-    padding: 1em 0;
-  }
-
+    max-width: 100%;
+    padding: 0;
+    margin: 1em 0;
+}
   /* terminal */
 
   #post pre.terminal {
