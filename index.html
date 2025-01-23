@@ -6,13 +6,26 @@ title: mac10pro
 <div id="home">
   <h1>Blog Posts</h1>
   <ul class="posts">
-    
     {% for post in site.posts %}
-<!--       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li> -->
-      <div class="imgBlock">{{ content }}</div> 
+      <li>
+        <div class="post">
+          <!-- Display the post's date -->
+          <span>{{ post.date | date_to_string }}</span>
+          
+          <!-- Link to the individual post -->
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          
+          <!-- Display the post's excerpt (if defined in front matter) -->
+          <p>{{ post.excerpt }}</p>
+          
+          <!-- If you want to display an image from the post, assuming you set it in the front matter -->
+          {% if post.image %}
+            <div class="imgBlock">
+              <img src="{{ post.image }}" alt="{{ post.title }}">
+            </div>
+          {% endif %}
+        </div>
+      </li>
     {% endfor %}
-
-
-    
   </ul>  
 </div>
