@@ -1,6 +1,9 @@
 ---
 layout: post
-title: 1000 - Something Random and Stuff
+title: "My Awesome Post"
+date: 2025-01-23
+image: "/images/door001.png"  # optional image
+excerpt: "A short summary of my post goes here."
 ---
 
 {{ page.title }}
