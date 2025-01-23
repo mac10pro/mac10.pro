@@ -79,11 +79,11 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 110%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em auto;
-  line-height: 1.5em;
+    font-size: 100%;
+    text-align: left;
+    width: 1000px;
+    margin: 3em auto 2em auto;
+    line-height: 1.5em;
 }
 
 .title {
