@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "nas"
-excerpt:
+title: "windows movie maker transitions"
+excerpt: "windows movie maker transitions"
 date: 2025-01-02
-image: "/images/nas.jpg"  # optional image
+image: "/images/transitions.png"  # optional image
 ---
 
-<img src="/images/nas.jpg">
+<img src="/images/transitions.png">
