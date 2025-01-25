@@ -22,9 +22,11 @@ title: mac10.pro
           
           <!-- If you want to display an image from the post, assuming you set it in the front matter -->
           {% if post.image %}
+          <a href="{{ post.url }}">
             <div class="imgBlock">
               <img src="{{ post.image }}" alt="{{ post.title }}">
             </div>
+          </a>
           {% endif %}
         </div>
       </li>
