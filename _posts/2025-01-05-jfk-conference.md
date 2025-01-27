@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "JFK Speach"
-excerpt: "JFK Speach"
+title: "JFK Speech"
+excerpt: "JFK Speech"
 date: 2025-01-05
 image: "/images/jfk-narc.jpg"  # optional image
 ---
