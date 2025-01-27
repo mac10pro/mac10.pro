@@ -3,7 +3,7 @@ layout: post
 title: "Hyundai N Vision 74"
 excerpt: "Hyundai N Vision 74"
 date: 2025-01-05
-image: "/images/car-concept.jpg"  # optional image
+image: "/images/carconcept.jpg"  # optional image
 ---
 
 <h1>
